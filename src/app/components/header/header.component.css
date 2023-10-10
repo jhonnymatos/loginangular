@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*colocar aqui o background da imagem*/
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: #9BAAF5;
+    height: 30px;
+    color: #ffffff;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 90px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tela de Login</title>
+    <link rel="stylesheet" type="text/css" href="login.component.css">
+</head>
+<main>
+    <div class="container">
+        <h2>LOGIN</h2>
+        <form id="loginForm">
+            <label for="username">Nome Completo:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefone (celular):</label>
+            <input type="phone" id="phone" name="phone" required>
+
+            <label for="born">Data de nascimento:</label>
+            <input type="born" id="born" name="born" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="cpf" id="cpf" name="cpf" required>
+
+            <button type="submit">CADASTRE-SE</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            alert("Login bem-sucedido!");
+        });
+    </script>
+
+</main>
+</html>

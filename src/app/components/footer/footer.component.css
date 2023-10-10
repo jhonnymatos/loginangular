@@ -1,0 +1,26 @@
+footer {
+    background-color: #FFF599;
+    color: #113A76;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    height: 228.33px;
+    font-family: Voces;
+    word-wrap: break-word;
+    }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text-block {
+    flex: 1; /* Faz os blocos de texto ocuparem a mesma largura */
+    margin: 0 10px; /* Espaçamento entre os blocos de texto */
+    text-shadow: #113A76 0.1em 0.1em 0.2em
+  }
+  
+  /* Estilos adicionais para os blocos de texto, como cores de fundo, fontes, etc. */
+  .text-block h4 {
+    font-size: 16px;
+  }
